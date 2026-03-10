@@ -1,29 +1,67 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>波本WA助手</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>波本WA助手</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #fff; color: #111; line-height: 1.7; }
+    header { padding: 48px 24px 32px; max-width: 800px; margin: 0 auto; }
+    h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+    .subtitle { color: #555; font-size: 16px; }
+    main { max-width: 800px; margin: 0 auto; padding: 0 24px 64px; }
+    .section { margin-top: 40px; }
+    h2 { font-size: 18px; font-weight: 600; margin-bottom: 12px; }
+    p { color: #333; margin-bottom: 12px; }
+    ul { color: #333; padding-left: 20px; }
+    ul li { margin-bottom: 6px; }
+    .badge { display: inline-block; background: #f3f3f3; border: 1px solid #e5e5e5; border-radius: 5px; padding: 4px 10px; font-size: 13px; color: #555; margin-bottom: 24px; }
+    footer { border-top: 1px solid #e5e5e5; padding: 24px; text-align: center; font-size: 13px; color: #888; }
+    footer a { color: #555; text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
 </head>
-<body style="font-family: sans-serif; max-width: 800px; margin: 0 auto; padding: 30px; line-height: 1.6;">
-    
+<body>
+  <header>
+    <div class="badge">Chrome 扩展程序</div>
     <h1>波本WA助手</h1>
-    
-    <div style="background-color: #f8f9fa; padding: 15px; border-left: 4px solid #1a73e8; margin-bottom: 20px;">
-        <h2>应用用途 (App Purpose)</h2>
-        <p>波本WA助手是一款专为提升工作效率而设计的 Chrome 浏览器扩展程序。它的主要用途是：帮助用户自动优化网页界面的数据展示，并提供快捷的辅助操作工具，从而显著节省用户在日常网页浏览和处理任务时的时间。</p>
+    <p class="subtitle">为 WhatsApp Web 添加强大的 CRM 与批量发送功能</p>
+  </header>
+
+  <main>
+    <div class="section">
+      <h2>应用简介</h2>
+      <p>波本WA助手是一款 Chrome 浏览器扩展程序，专为 WhatsApp Web 用户设计，提供标签管理、群发消息、话术库、商家备注、云端备份等功能，帮助用户高效管理客户沟通。</p>
     </div>
 
-    <h2>隐私权政策链接 (Privacy Policy)</h2>
-    <p>请点击下方链接查看我们完整的隐私权政策：</p>
-    <p>
-        <a href="https://yilidaily0826-gif.github.io/wa-assistant/privacy.html" style="font-size: 1.1em; font-weight: bold; color: #1a73e8;">
-            https://yilidaily0826-gif.github.io/wa-assistant/privacy.html
-        </a>
-    </p>
+    <div class="section">
+      <h2>主要功能</h2>
+      <ul>
+        <li>标签管理：为联系人添加自定义标签，快速筛选分类</li>
+        <li>群发消息：批量发送消息，支持图片、文件及智能防封策略</li>
+        <li>话术库：保存常用话术模板，支持占位符快速填写</li>
+        <li>商家备注：为每个联系人添加备注信息</li>
+        <li>云端备份：通过 Google Drive 备份和恢复扩展配置数据</li>
+        <li>待办清单：在 WhatsApp Web 中管理工作待办事项</li>
+      </ul>
+    </div>
 
-    <hr style="margin-top: 40px; border: 0; border-top: 1px solid #eee;">
-    <p style="color: #666;">联系与技术支持邮箱：temu_pl_group@googlegroups.com</p>
+    <div class="section">
+      <h2>Google Drive 权限说明</h2>
+      <p>本扩展在您主动使用云备份功能时，会请求访问您的 Google Drive。权限仅用于在您自己的 Drive 中创建备份文件夹（"WA助手备份"），存储您的扩展配置数据。我们不会访问您 Drive 中的其他任何文件。</p>
+    </div>
 
+    <div class="section">
+      <h2>联系我们</h2>
+      <p>如有任何问题，请发送邮件至：<a href="mailto:temu_pl_group@googlegroups.com">temu_pl_group@googlegroups.com</a></p>
+    </div>
+  </main>
+
+  <footer>
+    <a href="./privacy.html">隐私政策</a>
+    &nbsp;·&nbsp;
+    © 2026 波本WA助手
+  </footer>
 </body>
 </html>
